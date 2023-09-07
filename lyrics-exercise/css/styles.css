@@ -1,0 +1,35 @@
+p{
+    color: #BCE7FD;
+    text-align: left;
+    margin-left: 37%;
+    margin-right: 37%;
+    font-family: pf-marlet-display, sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #C492B1;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header{ 
+    text-align: center;
+    color: #BCE7FD;
+    font-size: 30px;
+    font-family: yink, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 150px; 
+    padding-top: 400px;
+    padding-bottom: 400px;
+    border-radius: 15%;
+    ;
+
+}
+
+body {
+   background-color: #AF3B6E;
+}
