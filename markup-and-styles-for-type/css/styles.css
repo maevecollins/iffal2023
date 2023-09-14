@@ -4,9 +4,14 @@ html{
    font-size: 15pt;
 
 }
+body{
+    margin: 10%;
+}
 h1{
     color: black;
-
+    letter-spacing: 1.02em;
+    text-transform: capitalize;
+    text-indent: -1rem;
 }
 
 p{
@@ -14,5 +19,32 @@ p{
 }
 
 sup{
-    font-size: 0.6rem;
+    font-size: 0.6em;
+}
+dfn{
+    font-weight: bold;
+    color: red;
+    text-transform: lowercase;
+}
+small{
+    font-style: italic;
+}
+aside {
+    text-align: center;
+}
+cite{
+    text-align: right;
+    display: block;
+}
+article{
+    margin: 6rem 0;
+}
+section{
+    margin: 2.5em 0;
+}
+a{
+    text-decoration: none;
+}
+code{
+    color: steelblue;
 }
