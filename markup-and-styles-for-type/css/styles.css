@@ -1,6 +1,7 @@
 html{
    color: gray;
-   font-family: Arial, Helvetica, sans-serif; 
+   /* font-family: Arial, Helvetica, sans-serif;  */
+   font-family: 'Roboto Condensed', sans-serif;
    font-size: 15pt;
 
 }
@@ -8,6 +9,10 @@ body{
     margin: 10%;
 }
 h1{
+    
+    font-family: "vista-slab", serif;
+    font-weight: 400;
+    font-style: italic;
     color: black;
     letter-spacing: 1.02em;
     text-transform: capitalize;
