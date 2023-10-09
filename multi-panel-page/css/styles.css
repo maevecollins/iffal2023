@@ -1,0 +1,138 @@
+html{ 
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header{ 
+    text-align: center;
+    margin: 0;
+    background-image: url(https://images.seattletimes.com/wp-content/uploads/2019/09/urn-publicid-ap-org-76b846f1c0504d27aa0f301c068a9d01Gardening_Botanical_Art_07136.jpg?d=780x593);
+    background-size: cover;
+    background-position: center right;
+}
+
+body{
+    margin: 0;
+}
+
+section{
+    margin: 0;
+}
+
+.section1{
+    padding-top: 38px;
+    background-color: #C5C69D;
+    color: #627747;
+}
+
+.section2{
+    padding-top: 40px;
+    background-color: #627747;
+    color: #FDF4E2;
+}
+
+.section3{
+    padding-top: 40px;
+    background-color: #ACB084;
+    color: #3d4b2c;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(164, 13, 96);
+}
+
+h2{
+font-size: 30px;
+margin-top: -2px;
+color: rgb(161, 75, 122);
+/* line-height: 1.1; */
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 33px;
+}
+
+p{
+font-size: 18px;
+line-height: 25px;
+padding-bottom: 18px;
+}
+
+.column_container{
+    width: 960px;
+    margin: auto;
+}
+header .column_container{
+    padding-top: 152px;
+    padding-bottom: 184px;
+}
+
+.float{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+
+#firstsection{
+    padding-bottom: 38px;
+}
+
+h4{
+margin: 0;
+margin-bottom: 8px;
+font-size: 20px;
+}
+
+.content-grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.grid-item{
+    margin-top: -1px;
+    width: 50%;
+    margin-bottom: 22px;
+}
+
+.images{
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    float: left;
+    margin-right: 12px;
+}
+
+.grid-text{
+    width: 430px;
+}
+
+.summary{
+    text-align: center;
+    font-size: 26px;
+    width: 703px;
+    margin: auto;
+    margin-top: -1px;
+    line-height: 36px;
+}
+
+.section3{
+    padding-bottom: 85px;
+}
+
+.copyright{
+    padding-top: 38px;
+}
+
+footer{
+    background-color: #FDF4E2;
+    color: #627747;
+}
