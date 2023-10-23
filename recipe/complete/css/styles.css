@@ -3,6 +3,7 @@
     margin: auto;
     background-image: url(https://as1.ftcdn.net/v2/jpg/00/04/94/74/1000_F_4947489_22018kuW8Uts2itd5VTg2rRgxiinU5JN.jpg);
     background-size: cover;
+    background-position: top right;
    
 }
 .intro img{
@@ -27,7 +28,7 @@
     font-weight: 300;
     font-style: normal;
     color: #E6F8B2;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-align: left;
  }
 
@@ -109,6 +110,7 @@
 .section3{
     background-image: url(https://as1.ftcdn.net/v2/jpg/00/04/94/74/1000_F_4947489_22018kuW8Uts2itd5VTg2rRgxiinU5JN.jpg);
     background-size: cover;
+    background-position: top right;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 15px;
@@ -187,7 +189,7 @@ html{
 }
 
 .intro h1{
-    font-size: 70px;
+    font-size: 4.5rem;
     text-align: left;
 }
 
@@ -196,13 +198,13 @@ h1{
     font-weight: 400;
     font-style: normal;
     color: #E6F8B2;
-    font-size: 50px;
+    font-size: 3rem;
 }
 P{
     color: #E6F8B2;
 }
 #prep-blurb{
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 /* 
 other coolors palette oclors 
@@ -221,7 +223,7 @@ CDE77F lime  */
     }
 
 }
-@media (max-width:1000px) {
+@media (max-width:900px) {
     .intro {
         grid-template-columns: 1fr;
     }
@@ -239,7 +241,7 @@ CDE77F lime  */
     }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .reviews li {
        font-size: 0.8rem;
        text-align: left;
@@ -256,11 +258,53 @@ CDE77F lime  */
     }
 
 }
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .intro img {
-       width: 250px;
-       height: 275px;
+       width: 350px;
+       height: 375px;
        border-radius: 200px;
+       margin: auto;
+    }
+
+}
+@media (max-width: 800px) {
+    #intro-blurb {
+       font-size: 1rem;
+    }
+
+}
+@media (max-width: 800px) {
+    .intro h1 {
+       font-size: 3rem;
+       float: left;
+    }
+
+}
+@media (max-width: 500px) {
+    .prep h1 {
+       font-size: 1.5rem;
+       
+    }
+
+}
+@media (max-width: 800px) {
+    #reviews-center {
+       font-size: 1.5rem;
+       
+    }
+
+}
+@media (max-width: 800px) {
+    .tools h1 {
+       font-size: 1.5rem;
+       
+    }
+
+}
+@media (max-width: 500px) {
+    #prep-blurb {
+       font-size: 0.8rem;
+       
     }
 
 }
