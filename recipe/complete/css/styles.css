@@ -10,7 +10,7 @@
     width: 500px;
     height: 550px;
     display: cover;
-    border-radius: 300px;
+    border-radius: 400px;
     border: 15px solid #0000
     
     
@@ -81,19 +81,21 @@
 
 .reviews li{
     display: block;
-    width: 25%;
+    width: 100%;
     text-align: center;
     font-size: 0.8rem;
     margin: 1rem;
     font-family: "akhand-sinhala", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #E6F8B2;
     text-align: center;
-    background-color: #79745C;
-    border-radius: 20px;
-    padding: 50px;
+    background-color: #899c52;
+    border-radius: 100px;
+    padding: 10px;
+    
+    
 
 }
 .reviews{
@@ -121,7 +123,7 @@
 
 .tools li{
     display: block;
-    width: 50%;
+    width: 100%;
     text-align: center;
     font-size: 0.8rem;
     margin-bottom: 1rem;
@@ -152,7 +154,7 @@
     width: 600px;
     height: 500px;
     display: cover;
-    border-radius: 300px;
+    border-radius: 500px;
  }
 
 .prep{
@@ -212,15 +214,53 @@ E6F8B2 light green
 CDE77F lime  */
 
 
- 
-@media(min-width: 605px){
-    li{
-    width: 100%;
+
+@media (max-width:650px) {
+    .tools {
+        grid-template-columns: 1fr;
     }
+
+}
+@media (max-width:1000px) {
+    .intro {
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width:1000px) {
+    .prep {
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width:1000px) {
+    .reviews {
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width: 600px) {
+    .reviews li {
+       font-size: 0.8rem;
+       text-align: left;
+       margin-right: 130px;
+    }
+
 }
 
-@media(min-width: 480px){
-    *{
-        font-size: .9rem;
+@media (max-width: 800px) {
+    .prep img {
+       width: 300px;
+       height: 250px;
+       border-radius: 250px;
     }
+
+}
+@media (max-width: 750px) {
+    .intro img {
+       width: 250px;
+       height: 275px;
+       border-radius: 200px;
+    }
+
 }
