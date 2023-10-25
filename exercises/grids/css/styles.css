@@ -1,6 +1,9 @@
 .grid img{
    padding: 0; 
    width: 90%;
+   width: 250px;
+   height: 300px;
+   display: cover;
 }
 .grid{
     padding: 0;
