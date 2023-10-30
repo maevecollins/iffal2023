@@ -1,0 +1,386 @@
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+			}
+
+
+            a#btn_lyft{
+                display: inline-block;
+                box-sizing: border-box;
+                top: 20%;
+                position: relative;
+                padding: 10px 10px ;
+                background-color: rgb(219, 34, 126);
+                border-radius: 40px;
+                transition: all 1s;
+            }
+
+            .lyft{
+                width: 120px;
+                height: 120px;
+            }
+           
+            a#btn_lyft:hover{
+                background-color: white;
+                padding: 20px 20px;
+            
+            }
+            a#btn_newyorker {
+                display: block;
+                padding: 15px 15px;
+                font-size: 35px;
+                top: 20%;
+                text-align: center;
+                color: #fff;
+                background-color: black;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 9px red;
+                font-family: "new-order", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-decoration: none;
+                border: black;
+                border-width: 3px;
+              }
+              #newYorker{
+                padding-top: 100px;
+              }
+
+
+              a#btn_newyorker:hover {
+                background-color: white;
+                color: black;
+            }
+              
+              a#btn_newyorker:active {
+                background-color: black;
+                color: white;
+                box-shadow: 0 5px rgb(172, 58, 58);
+                transform: translateY(4px);
+              }
+
+              a#btn_apple{
+                font-size: 120px;
+              }
+
+              .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+              }
+              .fa:hover {
+                opacity: 0.7;
+              }
+              .fa-apple {
+                background: rgb(115, 112, 112);
+                color: white;
+                font-size: 40px;
+              }
+              a#btn_harley-davidson{
+                padding-top: 60px;
+                font-size: 30px;
+                font-family: "ltr-federal-bureau-12-diago", sans-serif;
+                font-weight: 800;
+                font-style: normal;
+                text-decoration: none;
+                color: black;
+                transition: all .5s;
+              }
+
+              a#btn_harley-davidson:hover{
+                color: red;
+
+              }
+             
+              a#btn_NPR {
+                position: relative;
+                background-color: steelblue;
+                border: none;
+                font-size: 80px;
+                color: #FFFFFF;
+                padding: 20px;
+                width: 200px;
+                text-align: center;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+                cursor: pointer;
+                font-family: "new-order", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                border-radius: 50%;
+                border-color: black;
+                border-width: 4px;
+              }
+              
+              a#btn_NPR:hover {
+                content: "";
+                background: #90EE90;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                font-size: 400px;
+                transition: all 5s;
+                color: red;
+            
+              }
+              
+              a#btn_NPR:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+              }
+
+              a#btn_tonightshow{
+                top: 50%;
+                font-family: "interstate-mono", monospace;
+                font-weight: 700;
+                font-style: normal;
+                text-decoration: none;
+                color: white;
+                font-size:20px;
+                padding: 10px 10px;
+                background-color: black;
+                border-radius: 15px;
+              }
+              a#btn_tonightshow:hover{
+                background-color: rgb(0,0,0,0);
+                transition: all 0.5s;
+                color: black;
+                font-size: 50px;
+              }
+              a#btn_fitbit{
+                color: hotpink;
+                text-decoration: none;
+                font-family: "droog", sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 60px;
+                background-color: white;
+                padding: 5px 10px;
+                border-radius: 30px;
+              }
+              a#btn_fitbit:active{
+                font-size: 15px;
+                background-color: hotpink;
+                color: white;
+                transform: all 0.5s;
+              }
+              a#btn_fitbit:hover{
+                background-color: hotpink;
+                color: white;
+                transform: all 0.5s;
+              }
+
+              a#btn_pottermore{
+                color: #1b7034;
+                background-color: silver;
+                font-family: "new-order", sans-serif;
+                font-weight: 800;
+                font-style: normal;
+                text-decoration: none;
+                padding: 20px 40px;
+                font-size: 30px;
+                border-radius: 30px;
+              }
+              a#btn_pottermore:hover{
+                letter-spacing: 10px;
+                padding: 20px 5px;
+                transition: all 0.5s;
+              }
+              a#btn_pottermore:active{
+                color:  silver;
+                background-color: #1b7034;
+              }
+              
+              a#btn_colorrun{
+                color: white;
+                text-decoration: none;
+                top:50%;
+                font-family: "droog", sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 22px;
+                padding: 20px 20px;
+                border-radius: 30px;
+                background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+              }
+              a#btn_colorrun:hover{
+                padding-left: 80px;
+                padding-right:80px;
+                font-size: 8px;
+                transition: all 1s;
+              }
+            
+            a#btn_velocity{
+                background-color: orange;
+                color: black;
+                padding: 20px 20px;
+                font-family: "new-order", sans-serif;
+                font-weight: 800;
+                font-style: normal;
+                text-decoration: none;
+                font-size: 30px;
+
+            }
+            a#btn_velocity:hover{
+                transform: translate(0px, 60px);
+                border-radius: 80px;
+                
+            }
+
+
+              
