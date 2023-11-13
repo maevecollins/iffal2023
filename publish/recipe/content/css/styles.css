@@ -1,0 +1,26 @@
+body{
+    background-color: #1E1E24;
+    font-size: 14pt;
+    font-family: "gelica", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 5rem 30em;
+    color: #FB9F89;
+    }
+    header{
+        /* font-family: "gelica", sans-serif;
+        font-weight: 300;
+        font-style: normal; */
+        font-size: 35pt;
+        padding-bottom: 40pt;
+        color: #21A179;
+    }
+    h1{
+    color: #81AE9D;
+    font-size: 17pt;
+    text-indent: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    /* #C4AF9A in color scheme */

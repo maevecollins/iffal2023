@@ -1,0 +1,54 @@
+body{
+background-color: #7D84B2;
+font-size: 14pt;
+font-family: "pf-expo", sans-serif;
+font-weight: 400;
+font-style: regular;
+margin: 25rem 30em;
+color: #D9DBF1;
+}
+header{
+    font-size: 35pt;
+    padding-bottom: 40pt;
+    color: #F2FAED;
+}
+h1{
+color: #DBF4A7;
+font-size: 17pt;
+text-indent: 10%;
+}
+
+w{
+    font-weight: bolder;
+}
+
+
+fs{
+    font-style: oblique;
+}
+
+letterout{
+    letter-spacing: 6px;
+}
+letterin{
+    letter-spacing: -1px;
+}
+caps{
+    text-transform: capitalize;
+}
+uppercase{
+    text-transform: uppercase;
+}
+lowercase{
+    text-transform: lowercase;
+}
+wavy{
+    text-decoration: green wavy underline;
+}
+overline{
+    text-decoration: red overline;
+}
+crazy{
+    text-decoration: green wavy underline;
+    text-decoration: red overline;
+}
