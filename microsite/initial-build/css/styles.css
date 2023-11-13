@@ -1,8 +1,23 @@
------------------  /* general */-----------------
+#bezel-prong{
+    width: 200px;
+    float: right;
+    padding: 10px;
+}
 
+footer{
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BFF3FF;
+    background-color: #5A838C;
+    padding: 20px;
+}
+
+-----------------  /* general */-----------------
 .navbar{
     background-color: #BFF3FF;
 }
+
 
 .titles{
     font-size: 7rem;
@@ -107,6 +122,59 @@ ul {
 .navbar div{
     background-color: #5A838C;
     width: 200px;
+}
+-----------------  /* home page */-----------------
+.background{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+/* can't get to work?  */
+-----------------  /* settings page */-----------------
+
+
+
+
+#bezel-prong{
+    width: 200px;
+    float: right;
+    padding: 10px;
+}
+
+#bead{
+    height: 150px;
+    float: right;
+    padding: 10px;
+}
+
+#channel{
+    width: 200px;
+    float: right;
+    padding: 10px;
+}
+
+#burnish{
+    width: 200px;
+    float: right;
+    padding: 10px;
+}
+
+-----------------  /* cuts page */-----------------
+
+.stones img{
+    width: 400px;
+    display: block;
+}
+
+#moonstone{
+    width: 200px;
+    float: right;
+}
+
+#diamond{
+    width: 300px;
+    float: right;
 }
 
 -----------------  /* responsiveness */-----------------
