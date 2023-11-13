@@ -1,0 +1,112 @@
+-----------------  /* general */-----------------
+
+.navbar{
+    background-color: #BFF3FF;
+}
+
+.titles{
+    font-size: 7rem;
+    font-family: 'Italiana', sans-serif;
+    color: #BFF3FF;
+    background-color: #5A838C;
+    padding-top: 78px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+}
+
+.blurb {
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #325158;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    width: 600px;
+    padding-top: 200px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Italiana', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #325158;
+    font-size: 2.3rem;
+}
+
+.grid-item p{
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #325158;
+    font: 1rem;
+}
+
+.grid-item{
+    width: 500px;
+    padding: 30px;
+}
+
+#description {
+    font-family: 'Italiana', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #325158;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+
+-----------------  /* navbar */-----------------
+ul {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #5A838C;
+  }
+  
+  li a {
+    display: block;
+    color: #1e3135;
+    width: 200px;
+    padding: 8px;
+    text-decoration: none;
+    align-items: left;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #325158;
+    color: #BFF3FF;
+    font-weight: 900;
+  }
+  
+  
+.navbar {
+    list-style-type: none;
+    font-family: 'Italiana', sans-serif;
+    font-size: 3rem;
+    background-color: #5A838C
+    
+}
+
+.navbar div{
+    background-color: #5A838C;
+    width: 200px;
+}
+
+-----------------  /* responsiveness */-----------------
