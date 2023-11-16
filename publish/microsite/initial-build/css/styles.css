@@ -11,6 +11,7 @@ footer{
     color: #BFF3FF;
     background-color: #5A838C;
     padding: 20px;
+    width: 100%;
 }
 .gallery-img{
     width: 400px;
@@ -18,7 +19,32 @@ footer{
     object-fit: cover;
     padding: 80px;
 }
+#home-title{
+    font-size: 7rem;
+    font-family: 'Italiana', sans-serif;
+    color: #BFF3FF;
+    background-color: #5A838C;
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
 
+#left-div{
+    border-radius: 40px 40px 0px;
+}
+
+#active{
+    color: #BFF3FF;
+    background-color: #325158;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 210px;
+}
+    
 -----------------  /* general */-----------------
 .navbar{
     background-color: #BFF3FF;
@@ -34,7 +60,7 @@ footer{
     padding-bottom: 80px;
     padding-right: 20px;
     margin-right: 40px;
-    border-radius: 0px 55px 55px 0px;
+    border-radius: 0px 40px 40px 0px;
 }
 
 .intro{
@@ -134,11 +160,78 @@ ul {
     background-color: #5A838C;
     width: 200px;
 }
+.active {
+    background-color: #325158;
+}
+
+-----------------  /* horizontal navbar */-----------------
+#home-title{
+    font-size: 7rem;
+    font-family: 'Italiana', sans-serif;
+    color: #BFF3FF;
+    background-color: #5A838C;
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+}
+.h-navbar{
+    font-family: 'Italiana', sans-serif;
+    font-size: 3rem;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.h-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1e3135;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .h-navbar li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    padding-right: 80px;
+    padding-left: 80px;
+   
+  }
+  
+  .h-navbar li a {
+    color: #1e3135;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .h-navbar li a:hover {
+    background-color: #325158;
+    color: #BFF3FF;
+    font-weight: 900;
+  }
+
+  .active {
+    background-color: #325158;
+  }
+  .h-navbar ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
 -----------------  /* home page */-----------------
 .background{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: auto;
+   display: block;
+   width: 200px;
+   margin: auto;
 }
 
 /* can't get to work?  */
@@ -178,6 +271,7 @@ ul {
     display: block;
 }
 
+
 #moonstone{
     width: 200px;
     float: right;
@@ -186,6 +280,12 @@ ul {
 #diamond{
     width: 300px;
     float: right;
+}
+
+.more-stones{
+    display: block;
+    width: 200px;
+    margin: auto;
 }
 -----------------  /* gallery page */-----------------
 
