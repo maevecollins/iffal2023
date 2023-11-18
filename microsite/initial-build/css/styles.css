@@ -36,6 +36,14 @@ footer{
 #left-div{
     border-radius: 40px 40px 0px;
 }
+
+#active{
+    color: #BFF3FF;
+    background-color: #325158;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 210px;
+}
     
 -----------------  /* general */-----------------
 .navbar{
