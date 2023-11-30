@@ -1,0 +1,421 @@
+/* ---------------navbar------------------- */
+.navbar{
+    width: 100%s;
+    display: grid;
+    background-color: #5A838C;
+    list-style-type: none;
+    font-family: 'Italiana', sans-serif;
+    grid-template-columns: 1fr 1fr;
+}
+.navbar div{
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #5A838C;
+}
+li a {
+    
+    text-decoration: none;
+    color: #0a1011;
+    font-size: 6.3rem;
+    display: block;
+    text-align: center;
+    padding: 8px;
+}
+
+li a:hover{
+    color: #BFF3FF;
+    background-color: #325158;   
+    font-weight: 900; 
+    border-radius: 35px;
+}
+
+#active{
+    color: #BFF3FF;
+    background-color: #325158;   
+    font-weight: 900; 
+    border-radius: 35px;
+}
+
+.navbar a{
+    display: block;
+    text-align: center;
+}
+
+/* ------------------general-------------------- */
+
+footer{
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BFF3FF;
+    background-color: #5A838C;
+    padding: 20px;
+    width: 100%;
+}
+
+/* ----------------homepage------------------- */
+
+#home-title{
+    font-family: 'Italiana', sans-serif;
+    font-size: 9rem;
+    color: #3c2374;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blurb{
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #325158;
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.background img{
+    display: block;
+    align-items: center;
+    padding-top: 60px;
+    width: 400px;
+}
+
+h2{
+    font-family: 'Italiana', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #325158;
+    font-size: 2.3rem;
+}
+.titles{
+    font-family: 'Italiana', sans-serif;
+    font-size: 9rem;
+    color: #3c2374;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* ----------------------cuts page---------------- */
+
+.grid-item p{
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #325158;
+    display: block;
+    text-align: left;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-top: 200px;
+}
+.grid-item img{
+    margin-top: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    padding: 30px;
+    width: 300px;
+}
+.stones{
+    float: left;
+    width: 100px;  
+}
+
+.grid-item h2{
+    font-size: 6rem;
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+    color: #3c2374;
+}
+#description{
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  #3c2374;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 2.5rem;
+}
+/* ----------------------settings page---------------- */
+
+
+
+/* ----------------------gallery page---------------- */
+
+.gallery-img{
+    width: 700px;
+    height:700px;
+    padding: 40px;
+    object-fit: cover;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    border-radius: 25%;
+}
+
+
+/* ----------------responsive------------------- */
+
+
+@media (min-width: 425px){
+    .navbar a{ 
+        font-size: 2.5rem;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media (min-width: 425px){
+    .navbar { 
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 768px){
+    .navbar a{ 
+        font-size: 2.5rem;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .navbar a{ 
+        font-size: 3rem;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+@media (min-width: 1440px){
+    .navbar a{ 
+        font-size: 4rem;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+@media (min-width: 1600px){
+    .navbar a{ 
+        font-size: 4rem;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+/* home page */
+
+@media (min-width: 425px){
+    #home-title{
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 425px){
+    .blurb{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px){
+    #home-title{
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 768px){
+    .blurb{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 768px){
+    .background img{
+      width: 700px;
+      margin: 30px;
+    }
+}
+@media (min-width: 1024px){
+    #home-title{
+        font-size: 9rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .blurb{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .background img{
+      width: 700px;
+      margin: 150px;
+    }
+}
+
+@media (min-width: 1440px){
+    #home-title{
+        font-size: 12rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .blurb{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .background img{
+      width: 700px;
+      margin: 50px 300px 50px 350px ;
+    }
+}
+@media (min-width: 1600px){
+    .background img{
+      width: 700px;
+      margin: 50px 400px 50px 500px ;
+    }
+}
+
+                                    /* cuts page */
+
+@media (min-width: 425px){
+    .titles{
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 425px){
+    #description{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 425px){
+    #cuts-title{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px){
+    .titles{
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 425px){
+    #description{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 425px){
+    #cuts-title{
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .titles{
+        font-size: 9rem;
+    }
+}
+
+@media (min-width: 1024px){
+    #description{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    #cuts-title{
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .grid-item p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .titles{
+        font-size: 12rem;
+    }
+}
+
+@media (min-width: 1440px){
+    #description{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1440px){
+    #cuts-title{
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .grid-item p{
+        font-size: 2rem;
+    }
+}
+
+/* settings page */
+
+@media (min-width: 425px){
+    .grid-item p{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px){
+    .grid-items p{
+       font-size: 0.5rem;
+    }
+}
+
+@media (min-width: 425px){
+    .gallery-img{
+       width: 300px;
+       height: 300px;
+    }
+}
+
+@media (min-width: 768px){
+    .gallery-grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px){
+    .gallery-grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+    }
+}
