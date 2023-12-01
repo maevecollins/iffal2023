@@ -77,11 +77,11 @@ footer{
     padding: 50px;
 }
 
-.background img{
-    display: block;
+.background-grid{
     align-items: center;
-    padding-top: 60px;
-    width: 400px;
+    width: 200px;
+    display: grid;
+    color: #BFF3FF;
 }
 
 h2{
@@ -112,8 +112,7 @@ h2{
     text-align: left;
     padding: 15px;
     font-size: 1rem;
-    margin-top: 20px;
-    padding-top: 200px;
+    
 }
 .grid-item img{
     margin-top: 50px;
@@ -145,9 +144,22 @@ h2{
     padding: 15px;
     font-size: 2.5rem;
 }
+.cabochon-grid{
+    list-style-type: none;
+    color: #BFF3FF;
+
+}
+.facets-grid{
+    list-style-type: none;
+    color: #BFF3FF;
+
+}
 /* ----------------------settings page---------------- */
 
-
+.setting-grid{
+    color: #BFF3FF;
+    display: grid;
+}
 
 /* ----------------------gallery page---------------- */
 
@@ -230,6 +242,16 @@ h2{
         font-size: 1.5rem;
     }
 }
+@media (min-width: 425px){
+    .background-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 425px){
+    .background-grid img{
+        width: 300px;
+    }
+}
 
 @media (min-width: 768px){
     #home-title{
@@ -246,6 +268,16 @@ h2{
     .background img{
       width: 700px;
       margin: 30px;
+    }
+}
+@media (min-width: 768px){
+    .background-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 768px){
+    .background-grid img{
+        width: 200px;
     }
 }
 @media (min-width: 1024px){
@@ -266,7 +298,16 @@ h2{
       margin: 150px;
     }
 }
-
+@media (min-width: 1024px){
+    .background-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1024px){
+    .background-grid img{
+        width: 300px;
+    }
+}
 @media (min-width: 1440px){
     #home-title{
         font-size: 12rem;
@@ -280,15 +321,23 @@ h2{
 }
 
 @media (min-width: 1440px){
-    .background img{
-      width: 700px;
-      margin: 50px 300px 50px 350px ;
+    .background-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1440px){
+    .background-grid img{
+        width: 440px;
     }
 }
 @media (min-width: 1600px){
-    .background img{
-      width: 700px;
-      margin: 50px 400px 50px 500px ;
+    .background-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1600px){
+    .background-grid img{
+        width: 500px;
     }
 }
 
@@ -311,6 +360,18 @@ h2{
         font-size: 3rem;
     }
 }
+@media (min-width: 425px){
+    .cabochon-grid img{
+        width: 130px;
+        padding-bottom: none;
+    }
+}
+@media (min-width: 425px){
+    .facets-grid img{
+        width: 130px;
+        padding-bottom: none;
+    }
+}
 
 @media (min-width: 768px){
     .titles{
@@ -318,13 +379,13 @@ h2{
     }
 }
 
-@media (min-width: 425px){
+@media (min-width: 768px){
     #description{
         font-size: 2rem;
     }
 }
 
-@media (min-width: 425px){
+@media (min-width: 768px){
     #cuts-title{
         font-size: 4rem;
     }
@@ -353,6 +414,18 @@ h2{
         font-size: 1.5rem;
     }
 }
+@media (min-width: 1024px){
+    .cabochon-grid img{
+        width: 160px;
+        padding-bottom: none;
+    }
+}
+@media (min-width: 1024px){
+    .facets-grid img{
+        width: 160px;
+        padding-bottom: none;
+    }
+}
 
 @media (min-width: 1440px){
     .titles{
@@ -377,27 +450,65 @@ h2{
         font-size: 2rem;
     }
 }
+@media (min-width: 1440px){
+    .cabochon-grid img{
+        width: 210px;
+        padding-bottom: none;
+    }
+}
+@media (min-width: 1440px){
+    .facets-grid img{
+        width: 210px;
+        padding-bottom: none;
+    }
+}
 
 /* settings page */
 
 @media (min-width: 425px){
     .grid-item p{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 425px){
+    .grid-item h2{
+        font-size: 3rem;
+    }
+}
+@media (min-width: 425px){
+    .setting-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 425px){
+    .setting-grid img{
+        width: 300px;
+    }
+}
+@media (min-width: 768px){
+    .setting-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 768px){
+    .setting-grid img{
+        width: 300px;
+    }
+}
+@media (min-width: 1024px){
+    .setting-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px){
+    .grid-item p{
         font-size: 1.2rem;
     }
 }
 
-@media (min-width: 768px){
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
-@media (min-width: 768px){
-    .grid-items p{
-       font-size: 0.5rem;
-    }
-}
+/* gallery page */
 
 @media (min-width: 425px){
     .gallery-img{
@@ -419,3 +530,4 @@ h2{
      grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
